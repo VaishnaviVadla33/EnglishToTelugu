@@ -1,10 +1,10 @@
-# 📷 English to Multiple Indian Languages Translator
+# English to Multiple Indian Languages Translator
 
 A Streamlit application that extracts text from images and translates it into various Indian languages with audio support.
 
 ![Project Banner](https://github.com/VaishnaviVadla33/EnglishToTelugu/blob/main/MyApplication.png)
 
-## 🌟 Features
+## Features
 
 - 📸 Extract text from multiple images simultaneously
 - 🔄 Translate extracted text to 7 Indian languages
@@ -14,7 +14,7 @@ A Streamlit application that extracts text from images and translates it into va
 - 🖼️ Display of original images alongside translations
 - 💻 User-friendly interface with responsive design
 
-## 🔄 Workflow
+## Workflow
 
 1. **Input**: User uploads one or more images containing English text
 2. **Text Extraction**: Pytesseract OCR extracts text from the images
@@ -40,7 +40,7 @@ graph TD
     J --> M[Download as Text]
 ```
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Frontend & Application Framework**:
   - [Streamlit](https://streamlit.io/) - For the web application interface
@@ -60,7 +60,7 @@ graph TD
   - [PyperClip](https://pypi.org/project/pyperclip/) - For clipboard functionality
   - [io](https://docs.python.org/3/library/io.html) - For handling byte streams
 
-## 🗣️ Supported Languages
+## Supported Languages
 
 - Telugu (tel_Telu)
 - Hindi (hin_Deva)
@@ -70,12 +70,12 @@ graph TD
 - Malayalam (mal_Mlym)
 - Marathi (mar_Deva)
 
-## 🚀 Installation
+## Installation
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/username/multi-image-translator.git
-   cd multi-image-translator
+   git clone https://github.com/VaishnaviVadla33/EnglishToTelugu.git
+   cd EnglishToTelugu
    ```
 
 2. Create a virtual environment:
@@ -94,7 +94,7 @@ graph TD
    - **macOS**: `brew install tesseract`
    - **Linux**: `sudo apt install tesseract-ocr`
 
-## 📋 Requirements
+## Requirements
 
 Create a `requirements.txt` file with the following dependencies:
 
@@ -109,7 +109,7 @@ gtts
 pyperclip
 ```
 
-## 🏃‍♀️ Running the Application
+## Running the Application
 
 Run the Streamlit app:
 ```bash
@@ -118,7 +118,7 @@ streamlit run app.py
 
 The app will open in your default web browser, typically at `http://localhost:8501`.
 
-## 📱 Usage Guide
+## Usage Guide
 
 1. Open the application in your web browser
 2. Select your target Indian language from the sidebar
@@ -134,7 +134,7 @@ The app will open in your default web browser, typically at `http://localhost:85
    - Download the translation as a text file
 7. Use the "Reset All" button to start over with new images
 
-## ⚠️ Limitations
+## Limitations
 
 - **Limited Data Processing**: Currently, the application is designed to work with a limited amount of input data. Very large images or a high number of concurrent uploads may affect performance.
 - OCR accuracy depends on image quality, text clarity, and fonts
@@ -144,7 +144,7 @@ The app will open in your default web browser, typically at `http://localhost:85
 - The NLLB-200 model has token limitations which may affect translation of very long texts
 - Memory usage can be high when processing multiple images simultaneously
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
@@ -154,16 +154,3 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 📧 Contact
-
-Vaishnavi - [your-email@example.com](mailto:your-email@example.com)
-
-Project Link: [https://github.com/username/multi-image-translator](https://github.com/username/multi-image-translator)
-
----
-
-Made with ❤️ by Vaishnavi | © 2025
