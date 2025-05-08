@@ -1,5 +1,8 @@
-streamlit==1.28.0
-pillow==10.0.1
-pytesseract==0.3.10
-transformers==4.31.0
-torch>=2.0.0
+streamlit>=1.27.0
+pillow
+pytesseract
+transformers
+torch
+sentencepiece
+gtts
+pyperclip
