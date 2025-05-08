@@ -346,7 +346,7 @@ if st.session_state.results or st.session_state.uploaded_files:
 st.markdown("---")
 st.markdown("""
 <div class="footer">
-    <p>Made with ❤️ using Streamlit, Pytesseract, NLLB-200, and gTTS</p>
-    <p>Developed by YourName | © 2023</p>
+    <p>Made using Streamlit, Pytesseract, NLLB-200, and gTTS</p>
+    <p>Developed by Vaishnavi | © 2025</p>
 </div>
 """, unsafe_allow_html=True)
